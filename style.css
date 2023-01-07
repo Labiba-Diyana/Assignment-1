@@ -1,0 +1,125 @@
+
+/*first step*/
+body{
+    margin: 0;
+}
+.top-banner{
+    background-image: url(resource/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    background-size: cover;
+    width:99%;
+    height:1000px; 
+    text-align: right;
+    color:white;
+    font-family: sans serif, verdana;
+}
+.top-banner h1, .top-banner-p, button{
+    margin-right: 200px;
+}
+.heading-title{
+    margin-top:200px;
+    font-size:65px;
+    font-family: sans-serif;
+}
+ button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(68, 112, 245);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 30px 2px;
+    margin-right: 200px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  /* main starts from here */
+
+.first-img{
+    margin-top: 1050px;
+    margin-left: 200px;
+    size: 50px;
+    background-color: rgb(124, 204, 230);
+    border-radius: 90%;
+    
+    
+}
+.flex-div{
+    display: flex;
+}
+.main-section-info{
+    margin-top: 1250px;
+    margin-left: 300px;
+    width: 600px;
+    font-family: sans-serif;
+}
+.main-section-info h2{
+    font-size:50px;
+    font-weight: 800;
+}
+.main-section-info li{
+    margin-top:15px;
+    list-style: square;
+
+}
+
+.lower-header{
+    margin-top:150px;
+    text-align:center; 
+    font-size: 45px; 
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.lower-section-info{
+    display: flex;
+    margin-top:50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.logo-img{
+    display: block;
+    text-align: center;
+    /* padding-right:80px ; */
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.logo-img p{
+    color: grey;
+}
+.back-img{
+    background-image: url(resource/images/watch.png);
+    background-repeat: no-repeat;
+    margin: 100px 350px;
+    position:relative;
+}
+.heading-title-2{
+    font-size:50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 50px;
+}
+.lower-button{
+    margin-top:0px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+    
+    /* background-repeat: no-repeat;
+    height: 1200px;
+    background-position: center;
+    background-size: cover; */
