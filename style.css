@@ -68,6 +68,13 @@ body{
     list-style: square;
 
 }
+.list-icon{
+    padding-left:25px;
+}
+
+.list-icon li{
+    list-style-image:url('resource/images/icons/list-tick-icon.png');
+}
 
 .lower-header{
     margin-top:150px;
@@ -112,6 +119,52 @@ body{
     margin-left: 50px;
     margin-bottom: 20px;
 }
+.last-sec{
+    display: flex;
+    gap: 500px;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+.last-btn{
+    display: block;
+    color: white;
+    background-color: rgb(13, 80, 168);
+    padding: 25px 40px;
+    border-radius: 8%;
+}
+.input-style{
+    padding: 25px;
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8%;
+    font-size: 16px;
+    font-size: 20px;
+}
+.subscribe{
+        font-size: 30px;
+        font-family: sans-serif;margin-bottom: 20px;
+        padding-top: 70px;
+}
+.last-title{
+    font-size: 50px;
+    font-family:sans-serif;
+    padding-top: 100px;
+}
+.footer-p{
+    font-family: sans-serif;
+    padding-top: 14px;
+}
+.last-sec-first-para{
+  margin-left: 300px;
+}
+.last-sec a{
+    padding-right: 20px;
+}
+
+
 
 
 
