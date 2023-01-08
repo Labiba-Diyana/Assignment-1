@@ -1,8 +1,9 @@
-
-/*first step*/
+/* common styles */
 body{
     margin: 0;
 }
+
+/* Header section styles */
 .top-banner{
     background-image: url(resource/images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -39,16 +40,13 @@ body{
     border-radius: 4px;
   }
 
-  /* main starts from here */
-
+/* main starts from here */
 .first-img{
     margin-top: 1050px;
     margin-left: 200px;
     size: 50px;
     background-color: rgb(124, 204, 230);
     border-radius: 90%;
-    
-    
 }
 .flex-div{
     display: flex;
@@ -66,16 +64,13 @@ body{
 .main-section-info li{
     margin-top:15px;
     list-style: square;
-
 }
 .list-icon{
     padding-left:25px;
 }
-
 .list-icon li{
     list-style-image:url('resource/images/icons/list-tick-icon.png');
 }
-
 .lower-header{
     margin-top:150px;
     text-align:center; 
@@ -94,7 +89,6 @@ body{
 .logo-img{
     display: block;
     text-align: center;
-    /* padding-right:80px ; */
     margin-right: 80px;
     margin-left: 80px;
 }
@@ -119,6 +113,8 @@ body{
     margin-left: 50px;
     margin-bottom: 20px;
 }
+
+/* footer style starts from here */
 .last-sec{
     display: flex;
     gap: 500px;
@@ -144,9 +140,9 @@ body{
     font-size: 20px;
 }
 .subscribe{
-        font-size: 30px;
-        font-family: sans-serif;margin-bottom: 20px;
-        padding-top: 70px;
+    font-size: 30px;
+    font-family: sans-serif;margin-bottom: 20px;
+    padding-top: 70px;
 }
 .last-title{
     font-size: 50px;
@@ -158,21 +154,8 @@ body{
     padding-top: 14px;
 }
 .last-sec-first-para{
-  margin-left: 300px;
+    margin-left: 300px;
 }
 .last-sec a{
     padding-right: 20px;
 }
-
-
-
-
-
-
-
-
-    
-    /* background-repeat: no-repeat;
-    height: 1200px;
-    background-position: center;
-    background-size: cover; */
